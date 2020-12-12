@@ -1,1 +1,5 @@
+This program no longer works for testing purposes due to leaving the company. 
+I removed the details pertaining to the company.   
 
+How it all works :
+This was another of my personal projects for my past job. We had this system that allowed employees to leave work early called VTO (Voluntary Time Off) if there was downtime. There was a limited amount of people allowed to leave so it was first come first serve.  The agents had to open the website, log in and navigate a couple of links to see if there was any time slots available so we can leave. Since we had to monitor this page constantly it would be distracting from our job and if the page is inactive the site will log you out. So I started working on a script that would log in for me and navigate the site. I was going to further develop the script to either just constantly refresh the page or look into a way to have the script tell me the time slots available as soon as available the notify me. Lastly, if available for time off I would have the script put in the request for me. I soon left the company and ended that development.
