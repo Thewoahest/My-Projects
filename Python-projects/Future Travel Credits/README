@@ -1,0 +1,7 @@
+These programs no longer work for testing purposes. At the time I was employed with an airline company's vacation department (we booked airfare, hotels, car rentals and activities). Due to covid-19 our job functions changed rapidly and a select few (myself included) had to work with thousands of cancelled books that would receive future travel credits. This task was very repetitive and particular we'd often see errors. I decided to make a program that would ask for the important details from the person receiving the credit such as names, address, emails and so on. Once an employee entered the details the program would create the credit within 3 mins without error. I then started working on a GUI to make the program user friendly for employees. Half way through I ended leaving the company which I no longer invested time into the project.
+
+To add, this was never officially used by the company. It was a concept I was going to bring to the managers but never had the chance since I left the company.
+
+I removed details pertaining to the company. 
+
+
