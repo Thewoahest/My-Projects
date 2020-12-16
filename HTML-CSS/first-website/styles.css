@@ -1,0 +1,176 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 0 5em 0;
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px;
+
+}
+
+header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    background-color: #efd3d7;
+    padding: 10px;
+}
+#welcome {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#about-me {
+    text-align: center;
+    font-weight: 500;
+    font-size: 100%;
+    
+}
+#creator img {
+    width: 420px;
+    height: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#social {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+.l li a{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 2px;
+}
+.l li{
+    list-style-type: none;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: #efd3d7;
+    text-align: center;
+}
+
+.navigation-bar ul   {
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+    font-weight: 500;
+    font-size: 20px;
+    
+}     
+.navigation-bar li    {
+    list-style-type: none;
+    padding: 0px;
+    display:inline;
+}
+.navigation-bar li a{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 2px;
+    padding: 10px;
+}  
+
+/* responsive gallery */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.column {
+    flex: 30%;
+    max-width: 24%;
+    padding: .5%;
+    
+}
+
+.column img {
+    margin-top: 5%;
+    vertical-align: baseline;
+    width: 25%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 49%;
+        max-width: 49%;
+    }
+    .column img {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* responsive gallery */
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "dizzy dog flight"
+        "baboons sticker1 sticker2";
+
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+#dizzy,#dog,#flight,
+#baboons,#sticker1,#sticker2{
+    max-width: 100%;
+    padding: 5px;
+}
+.price {
+    text-align: center;
+    font-size: 20px;
+}
+.products h1{
+    text-align: center;
+}
+.cart{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+table,th,td{
+    border: 2px solid black;
+    text-align: center;
+}
+.table{
+    padding-left: 2em;
+}
+h1.title{
+    text-align: center;
+    padding-left: 5px;
+}
+div.a, div.b {
+    text-align: center;
+}
+#commission{
+    text-align: center;
+    padding-top: 5em;
+}
+label{
+    display: inline-flex;
+    width: 80px;
+    text-align: right;
+}
+
